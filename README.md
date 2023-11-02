@@ -10,7 +10,7 @@
 
     🟢 In Graph-CMS side we can create post, categories, check the comment.
     
-    🟢 Each and Every content and feature can be controlled from Graph-CMS panel. 
+    🟢 Each content and feature can be controlled from Graph-CMS panel. 
     
     🟢 NextJs with GraphQL works like magic.
        
