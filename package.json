@@ -1,27 +1,27 @@
 {
-  "private": true,
+  "private": true,  // Indicates that this is a private project and should not be published as a package.
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
+    "dev": "next dev",   // Script for running the development server using Next.js.
+    "build": "next build", // Script for building the project using Next.js.
+    "start": "next start"  // Script for starting the production server using Next.js.
   },
   "dependencies": {
-    "graphql": "^16.2.0",
-    "graphql-request": "^3.7.0",
-    "html-react-parser": "^1.4.5",
-    "moment": "^2.29.1",
-    "next": "latest",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-multi-carousel": "^2.6.5",
-    "sass": "^1.49.0"
+    "graphql": "^16.2.0",   // Dependency on the GraphQL library with a minimum version requirement.
+    "graphql-request": "^3.7.0",  // Dependency on the GraphQL Request library with a minimum version requirement.
+    "html-react-parser": "^1.4.5",  // Dependency on the HTML to React parser library with a minimum version requirement.
+    "moment": "^2.29.1",   // Dependency on the Moment.js library with a minimum version requirement.
+    "next": "latest",  // Dependency on Next.js, always using the latest available version.
+    "react": "^17.0.2",   // Dependency on React with a minimum version requirement.
+    "react-dom": "^17.0.2",  // Dependency on React DOM with a minimum version requirement.
+    "react-multi-carousel": "^2.6.5",  // Dependency on React Multi Carousel with a minimum version requirement.
+    "sass": "^1.49.0"  // Dependency on the Sass CSS preprocessor with a minimum version requirement.
   },
   "devDependencies": {
-    "@types/node": "17.0.4",
-    "@types/react": "17.0.38",
-    "autoprefixer": "^10.4.0",
-    "postcss": "^8.4.5",
-    "tailwindcss": "^3.0.7",
-    "typescript": "4.5.4"
+    "@types/node": "17.0.4",  // Development dependency for TypeScript type definitions for Node.js.
+    "@types/react": "17.0.38",  // Development dependency for TypeScript type definitions for React.
+    "autoprefixer": "^10.4.0",  // Development dependency for Autoprefixer with a minimum version requirement.
+    "postcss": "^8.4.5",  // Development dependency for PostCSS with a minimum version requirement.
+    "tailwindcss": "^3.0.7",  // Development dependency for Tailwind CSS with a minimum version requirement.
+    "typescript": "4.5.4"  // Development dependency for TypeScript with a specific version requirement.
   }
 }
